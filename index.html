@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smash Bros</title>
+    <link rel="stylesheet" href="./src/css/variaveis.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/fontes.css">
+    <link rel="stylesheet" href="./src/css/animacoes.css">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <main>
+        <header class="cabecalho">
+            <h1 class="titulo">Character Select</h1>
+        </header>
+        <div class="selecao-de-personagens">
+            <div class="personagem-grande personagem-jogador-1">
+                <img src="./src/imagens/link.png" alt="link" id="personagem-jogador-1">
+                <div class="nome">
+                    <h2 id="nome-jogador-1">Link</h2>
+                </div>
+                               
+            </div>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="link" data-name="Link">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/link-icon.jpg" alt="link">
+                </li>
+
+                <li class="personagem" id="samus" data-name="samus">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/samus-icon.jpg" alt="samus">
+                </li>
+
+                <li class="personagem" id="pikachu" data-name="pikachu">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/pikachu-icon.jpg" alt="pikachu">
+                </li>
+
+                <li class="personagem" id="megaman" data-name="megaman">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/megaman-icon.jpg" alt="megaman">
+                </li>
+
+                <li class="personagem" id="luigi" data-name="luigi">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/luigi-icon.jpg" alt="luigi">
+                </li>
+
+                <li class="personagem" id="bowser" data-name="bowser">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/bowser-icon.jpg" alt="bowser">
+                </li>
+
+                <li class="personagem" id="pacman" data-name="pacman">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/pacman-icon.jpg" alt="pacman">
+                </li>
+                
+                <li class="personagem" id="mewtwo" data-name="mewtwo">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/mewtwo_icon.jpg" alt="mewtwo">
+                </li>
+
+                <li class="personagem jogador-2-selecionado" id="mario" data-name="mario">
+                    <span class="tag">2P</span>
+                    <img src="./src/imagens/mario-icon.jpg" alt="mario">
+                </li>
+            </ul>
+
+            <div class="personagem-grande personagem-jogador-2">
+                    <img src="./src/imagens/mario.png" alt="mario" id="personagem-jogador-2">
+                    <div class="nome">
+                        <h2>Mario</h2>
+                    </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
